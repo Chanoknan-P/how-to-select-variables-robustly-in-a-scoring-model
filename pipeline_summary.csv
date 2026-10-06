@@ -1,0 +1,5 @@
+﻿Filtering Stage,Input Count,Dropped Variables,Remaining Count
+"1. Numerical (Kruskal-Wallis, all folds)",7,None,7
+"2. Categorical (Cramér's V vs target, all folds)",4,['loan_intent'],3
+"3. Numerical multicollinearity (Spearman >= 0.60, any fold)",7,"['cb_person_cred_hist_length', 'loan_amnt']",5
+"4. Categorical multicollinearity (Cramér's V >= 0.50, any fold)",3,['cb_person_default_on_file'],2
